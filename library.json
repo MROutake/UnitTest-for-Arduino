@@ -1,0 +1,28 @@
+{
+  "name": "ArduinoUnitTest",
+  "version": "0.2.0",
+  "description": "Mockbare Kapselung von Arduino-Pin-Funktionen fuer Unity-Tests",
+  "keywords": [
+    "arduino",
+    "unity",
+    "unit-test",
+    "mock",
+    "sensor"
+  ],
+  "authors": [
+    {
+      "name": "Theo Anders"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": [
+    "ArduinoUnitTest.h",
+    "AnalogInputPin.h",
+    "PinIO.h",
+    "I_InputOutput.h",
+    "MockInputOutput.h",
+    "ArduinoInputOutput.h"
+  ]
+}
